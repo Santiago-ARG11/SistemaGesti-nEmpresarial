@@ -1,0 +1,17 @@
+
+<!DOCTYPE html>
+<html>
+<head><meta charset="UTF-8"><title>Registro</title></head>
+<body>
+    <h1>Registro</h1>
+    {{if .Error}}<p style="color:red">{{.Error}}</p>{{end}}
+    {{if .Success}}<p style="color:green">{{.Success}}</p>{{end}}
+    <form method="POST" action="/register">
+        <label>Nombre completo:</label><br><input type="text" name="name" required><br><br>
+        <label>Correo:</label><br><input type="email" name="email" required><br><br>
+        <label>Contraseña:</label><br><input type="password" name="password" required><br><br>
+        <input type="submit" value="Registrarse">
+    </form>
+    <p>¿Ya tienes cuenta? <a href="/login">Inicia sesión</a></p>
+</body>
+</html>

@@ -1,0 +1,14 @@
+
+Resumen del sistema de gestión e-commerce en Go (avance actual):
+
+✔️ Modelos:
+- Product: ID, nombre, descripción, precio, stock, categoría.
+- User: ID, nombre, correo, contraseña, rol.
+- CartItem + Cart: estructura para manejar el carrito de compras.
+
+✔️ Funcionalidades:
+- Registro de usuario con validación de correo y cifrado de contraseña (bcrypt).
+- Inicio de sesión validando credenciales.
+- Lectura de productos desde archivo JSON.
+- Sesiones con cookies HTTP.
+- Plantillas HTML para login, registro y catálogo (próximamente en handlers).

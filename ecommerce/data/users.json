@@ -1,0 +1,16 @@
+[
+  {
+    "id": "2b047fa0-2b16-4555-85e5-ba1e2ab3da10",
+    "name": "Santiago",
+    "email": "sxnty11@hotmail.com",
+    "password": "$2a$10$JbQtyiA4Y7c5X3yqWLLzcOIUnGrjjI92taeB5BS.wjw8QQC0Y3a9S",
+    "role": "cliente"
+  },
+  {
+    "id": "61957c46-47ec-4e62-b00a-e0dd9eade35b",
+    "name": "Alexander",
+    "email": "alexander@gmail.com",
+    "password": "$2a$10$VXfMT3CaisX7yqQN1DnZ7.JAWFb6dqGnkPJTUI/GFECzQj2waVFV.",
+    "role": "cliente"
+  }
+]

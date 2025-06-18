@@ -1,0 +1,18 @@
+
+<!DOCTYPE html>
+<html>
+<head><meta charset="UTF-8"><title>Catálogo</title></head>
+<body>
+    <p>Bienvenido, {{.Email}} | <a href="/logout">Cerrar sesión</a></p>
+    <h1>Catálogo de productos</h1>
+    {{range .Products}}
+        <div>
+            <h2>{{.Name}}</h2>
+            <p>{{.Description}}</p>
+            <p><strong>Precio:</strong> ${{.Price}}</p>
+            <p><em>Categoría:</em> {{.Category}}</p>
+            <hr>
+        </div>
+    {{end}}
+</body>
+</html>

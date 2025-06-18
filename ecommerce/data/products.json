@@ -1,0 +1,19 @@
+
+[
+  {
+    "id": "1",
+    "name": "Café de origen",
+    "description": "Café cultivado en altura, sabor suave.",
+    "price": 3.50,
+    "stock": 100,
+    "category": "bebidas"
+  },
+  {
+    "id": "2",
+    "name": "Pan de masa madre",
+    "description": "Pan artesanal con fermentación natural.",
+    "price": 2.00,
+    "stock": 50,
+    "category": "panadería"
+  }
+]
